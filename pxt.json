@@ -1,0 +1,32 @@
+{
+    "name": "Reciving software",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "radio": "*",
+        "pxt-hummingbird-bit": "github:birdbraintechnologies/pxt-hummingbird-bit#v0.0.7",
+        "audio-recording": "*",
+        "pxt-radio-firefly": "github:microsoft/pxt-radio-firefly#v0.1.4",
+        "microbit-pxt-clicks": "github:bsiever/microbit-pxt-clicks#v0.2.2",
+        "servo": "*",
+        "radio-broadcast": "*",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.6"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.0.8",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
